@@ -127,7 +127,6 @@ namespace Sedion.SimpleTask.Web.Controllers
             if (!string.IsNullOrWhiteSpace(returnUrlHash))
             {
                 returnUrl = returnUrl + returnUrlHash;
-
             }
 
             return Json(new MvcAjaxResponse {TargetUrl = returnUrl});
